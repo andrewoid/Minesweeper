@@ -10,6 +10,7 @@
 <GridPane xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="schwimmer.minesweeper.MineController"
+          stylesheets="@stylesheet.css"
           hgap="1" vgap="1">
 
     <Square GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
