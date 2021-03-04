@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import schwimmer.minesweeper.Square?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="schwimmer.minesweeper.MineController"
+          hgap="1" vgap="1">
+
+    <Square GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="3" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="4" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="5" GridPane.rowIndex="0" onAction="#onSquareClicked"/>
+
+    <Square GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="5" GridPane.rowIndex="1" onAction="#onSquareClicked"/>
+
+    <Square GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="5" GridPane.rowIndex="2" onAction="#onSquareClicked"/>
+
+    <Square GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="2" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="4" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="5" GridPane.rowIndex="3" onAction="#onSquareClicked"/>
+
+    <Square GridPane.columnIndex="0" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="1" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="2" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="4" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+    <Square GridPane.columnIndex="5" GridPane.rowIndex="4" onAction="#onSquareClicked"/>
+
+</GridPane>
